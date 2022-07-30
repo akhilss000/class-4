@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    box-shadow: 10px 15px 20px 4px rgba(0, 0, 0, 0.603);
+}
+.result-box{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numbers{
+    height: 380px;
+    width: 300px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 70px;
+    height: 90px;
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+.number:hover{
+    background-color: rgb(186, 184, 184);
+}
+.equal{
+    color: green;
+}
+.oper{
+    color: red;
+}
